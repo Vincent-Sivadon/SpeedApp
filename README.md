@@ -1,7 +1,7 @@
 # SpeedApp
 Application de gestion de planning pour tournois de Crossminton.
-![PlanningWindow](SpeedAppPlanning.png "Planning Window")
-![BracketsWindow](SpeedAppBrackets.png "Brackets Window")
+![PlanningWindow](SpeedAppPlanning.PNG "Planning Window")
+![BracketsWindow](SpeedAppBrackets.PNG "Brackets Window")
 
 ## Installation
 
