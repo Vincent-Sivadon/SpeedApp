@@ -28,7 +28,7 @@ namespace SpeedApp
             // Create Label
             System.Windows.Forms.Label label = new System.Windows.Forms.Label();
             label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(140)))), ((int)(((byte)(163)))));
-            label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            label.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             label.Dock = System.Windows.Forms.DockStyle.Top;
             label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,7 +172,7 @@ namespace SpeedApp
             // 
             this.nbTerTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(25)))));
             this.nbTerTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nbTerTextBox.Cursor = System.Windows.Forms.Cursors.Default;
+            this.nbTerTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.nbTerTextBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.nbTerTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbTerTextBox.ForeColor = System.Drawing.Color.Gainsboro;

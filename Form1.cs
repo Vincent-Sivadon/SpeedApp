@@ -73,6 +73,8 @@ namespace SpeedApp
             nbTerrains = int.Parse(nbTerTextBox.Text);
             if (File.Exists(filepathButton.Text)) { planning = new Planning(this, filepathButton.Text, nbTerrains); }
 
+            this.ActiveControl = planningView;
+
         }
 
         private void FstJoueurPanel_ControlAdded(object sender, ControlEventArgs e)

@@ -37,7 +37,7 @@ namespace SpeedApp
             label.Text = "...";
             label.Name = i.ToString();
             label.BackColor = Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(140)))), ((int)(((byte)(163)))));
-            label.BorderStyle = BorderStyle.FixedSingle;
+            label.BorderStyle = BorderStyle.Fixed3D;
             label.FlatStyle = FlatStyle.Flat;
             label.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
             label.ForeColor = Color.Black;

@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoutonNaze.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="BoutonNaze.Designer.cs">
-      <DependentUpon>BoutonNaze.cs</DependentUpon>
-    </Compile>
     <Compile Include="Brackets.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -74,9 +68,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BoutonNaze.resx">
-      <DependentUpon>BoutonNaze.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Brackets.resx">
       <DependentUpon>Brackets.cs</DependentUpon>
     </EmbeddedResource>

@@ -41,7 +41,6 @@ namespace SpeedApp
             this.Name = "Brackets";
             this.Size = new System.Drawing.Size(273, 242);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
